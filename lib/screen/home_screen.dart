@@ -106,17 +106,51 @@ class _HomeScreenState extends State<HomeScreen> {
   renderHowToPlayGame(){
     showDialog(context: context, builder: (context){
       return AlertDialog(
+        backgroundColor: Colors.white,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(5.0)
         ),
         content: Container(
-          child: SingleChildScrollView(
-            child: Column(
-              children: [
-
-              ],
-            ),
-          ),
+          width: MediaQuery.of(context).size.width,
+            height: MediaQuery.of(context).size.height,
+          child: Column(
+            children: [
+              Expanded(
+                flex: 9,
+                child: PageView(
+                  scrollDirection: Axis.horizontal,
+                  children: [
+                    Container(
+                      width: MediaQuery.of(context).size.width,
+                      height: MediaQuery.of(context).size.height,
+                      child: Image.asset('assets/images/1.png'),
+                    ),
+                    Container(
+                      width: MediaQuery.of(context).size.width,
+                      height: MediaQuery.of(context).size.height,
+                      child: Image.asset('assets/images/2.png'),
+                    ),
+                    Container(
+                      width: MediaQuery.of(context).size.width,
+                      height: MediaQuery.of(context).size.height,
+                      child: Image.asset('assets/images/3.png'),
+                    ),
+                    Container(
+                      width: MediaQuery.of(context).size.width,
+                      height: MediaQuery.of(context).size.height,
+                      child: Image.asset('assets/images/4.png'),
+                    ),
+                  ],
+                ),
+              ),
+              Expanded(
+                flex: 1,
+                child: Container(
+                  child: Text('색상을 기억해서 맞춰보세요!'),
+                ),
+              )
+            ],
+          )
         ),
         actions: [
           ElevatedButton(

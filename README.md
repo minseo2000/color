@@ -1,16 +1,7 @@
-# memory_test_game
+본 앱은 Google AdMob을 사용하여 광고를 제공합니다.
+Google은 광고 ID와 같은 비식별 정보를 수집할 수 있으며,
+이는 광고 맞춤 및 통계 분석에 사용됩니다.
 
-memory-test-game
+사용자는 앱 설정을 통해 광고 추적을 제한할 수 있습니다.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+개인정보 관련 문의: qlqlxks123@naver.com
